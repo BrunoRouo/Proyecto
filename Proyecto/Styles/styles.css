@@ -262,7 +262,6 @@ li::marker
 {
     .header 
         {
-        
         flex-direction: column;
         height: auto;
         text-align: center;
@@ -314,8 +313,6 @@ li::marker
         margin-bottom: 20px;
         }
 
-   
-
     #body
         {
         margin-top: 20%;
@@ -349,4 +346,6 @@ li::marker
         {
         margin-top: 20px;
         }
+
+    
 }
