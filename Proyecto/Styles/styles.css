@@ -180,6 +180,73 @@ body
     font-weight: bold;
     }
 
+.InfoProy
+    {
+    display: flex;
+    padding: 1%;
+    }
+
+.TxtProy
+    {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    
+    
+    }
+
+.ObjG
+    {
+    font-family: Onest;
+    font-weight:bolder;
+    font-size: 150%;
+    }
+
+.areanat
+    {
+    font-family: Onest;
+    font-weight:bold;
+    margin-bottom: 5%;
+    font-size: 130%;
+    }
+
+.x3li
+    {
+    font-family: Onest;
+    font-weight:bold;
+    margin-bottom: 5%;
+    font-size: 130%;
+    }
+
+li::marker
+    {
+    color: #f2c963;
+    }
+
+.AREA
+    {
+    font-family: Onest;
+    font-weight:bolder;
+    font-size: 120%;
+    margin-bottom: 3%;
+    }
+
+.Loc
+    {
+    font-family: Onest;
+    font-weight:bold;
+    font-size: 110%;
+    }
+
+#Peru
+    {
+    width: 40%;
+    height: 30%;
+    margin-left: 10%;
+    margin-top: 1%;
+    border-radius: 2em;
+    }
 
 .footer
     {
@@ -190,7 +257,7 @@ body
     align-items: center;
     margin-top: 10%;
     }
-    
+
 @media (max-width:600px) 
 {
     .header 
