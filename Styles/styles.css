@@ -54,11 +54,12 @@ body
     {
     box-shadow: 0 10px 20px 0 rgb(0, 0, 0);
     border-radius: 3em;
-    transition: 0.5s, erase;
+    transition: 0.5s;
     }
 
 .titulo
     {
+    width: 100%;
     position: inherit;
     font-family: Onest;
     margin-top: 5%;
@@ -66,8 +67,7 @@ body
     justify-content: center;
     align-items: center;
     background-color: #B5CB99;
-    left: 0;
- 
+    
     }
 
 #body
@@ -85,7 +85,6 @@ body
 .infor2
     {
     margin-top: 5.5%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,8 +192,6 @@ body
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    
-    
     }
 
 .ObjG
@@ -258,6 +255,134 @@ li::marker
     align-items: center;
     margin-top: 10%;
     }
+
+.indice
+    {
+    width: 100%;
+    margin-left: 2%;
+    position: inherit;
+    font-family: Onest;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    font-size: 120%;
+    }
+
+.gral
+    {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    font-family: Onest;
+    font-weight: bold;
+    font-size: 120%;
+    
+    }
+
+.iden
+    {
+    margin-top: 1%;
+    margin-left: 2%;
+    line-height: 1;
+    }
+
+#PresGral
+    {
+    font-size: 170%;
+    }
+
+.boludos
+    {
+    padding-left: 1%;
+    padding-right: 1%;
+    transition: ease 0.5s;
+    }
+
+.boludos:hover
+    {
+    background-color: #1c847872;
+    transition:0.5s;
+    border-radius: 2em;
+    }
+
+#PubObj
+    {
+    font-size: 180%;
+    }
+
+#IdenVis
+    {
+    font-size: 180%;
+    }
+
+#DescripSitio
+    {
+    font-size: 180%;
+    }
+
+#Prototip
+    {
+    font-size: 180%;
+    }
+
+#RolIntegr
+    {
+    font-size: 180%;
+    }
+
+.textoGral
+    {
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 50%;
+    display: flex;
+    text-align: justify;
+    line-height: 2;
+    }
+
+.anp
+    {
+    margin-left: 5%;
+    }
+
+.Publico
+    {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    font-family: Onest;
+    font-weight: bold;
+    font-size: 120%;
+    }
+
+.objetivos
+    {
+    margin-top: 3%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+    }
+
+#imgArbol
+    {
+    margin-top: 3%;
+    width: 50%;
+    align-self: center;
+    border-radius: 2em;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.519);;
+    }
+
+.figma
+    {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 2%;
+    }
+
+
 
 @media (max-width:600px) 
 {
