@@ -172,6 +172,7 @@ body
 
 .infor4y5
     {
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
